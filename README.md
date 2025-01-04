@@ -1,6 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=6&height=260&section=header&text=BTCLTC&fontSize=70&animation=fadeIn&fontAlignY=38)
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=6&height=260&section=header&text=BTCB&fontSize=70&animation=fadeIn&fontAlignY=38)
 
-## Hi, I'm Clayon :wave: ![Profile View Counter](https://komarev.com/ghpvc/?username=BTCLTC)
+## Hi, I'm Clayon :wave: ![Profile View Counter](https://komarev.com/ghpvc/?username=BTCB)
 
 <div align="center">
   <p>
@@ -33,15 +33,15 @@
   </p>
   
   <p>
-    <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BTCLTC&layout=compact&theme=chartreuse-dark&count_private=true" />
+    <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BTCB&layout=compact&theme=chartreuse-dark&count_private=true" />
   </p>
   
   <p>
-    <img src="https://github-profile-trophy.vercel.app/?username=BTCLTC&theme=algolia&row=1&column=4&margin-w=5" />
+    <img src="https://github-profile-trophy.vercel.app/?username=BTCB&theme=algolia&row=1&column=4&margin-w=5" />
   </p>
   
   <p>
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=BTCLTC&count_private=true&theme=highcontrast&show_icons=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=BTCB&count_private=true&theme=highcontrast&show_icons=true" />
   </p>
 </div>
 
