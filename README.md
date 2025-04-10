@@ -50,5 +50,5 @@
 - Senior full-stack engineer, Excellent web developer, Dapp, Public Chain, Smart contract etc.
 - Front End: Vue3/React(Nuxt/Next) + TS + CSS3(Tailwind)
 - Back End: Rust + Nest(prisma ORM)
-- DevOps: AWS EKS + KubeSphere + CI/CD + Grafana + Loki + OpenSearch
+- DevOps: AWS EKS + KubeSphere + CI/CD + Grafana + Loki + KMS
 - Contract: Solana + Move(Sui)
