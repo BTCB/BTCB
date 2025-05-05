@@ -46,7 +46,7 @@
 </div>
 
 - Former developer of Huobi Heco chain
-- Front End & NodeJs & Move & Solana
+- Front End & Back End & DevOps & Contract
 - Senior full-stack engineer, Excellent web developer, Dapp, Public Chain, Smart contract etc.
 - Front End: Vue3/React(Nuxt/Next) + TS + CSS3(Tailwind)
 - Back End: Go + Rust + Nest(prisma ORM)
