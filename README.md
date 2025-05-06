@@ -18,6 +18,7 @@
   <p>
     <img src="https://img.shields.io/badge/-Nestjs-rgb(234, 40, 69)?style=flat-square&logo=nestjs&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Rust-rgb(161, 78, 10)?style=flat-square&logo=rust&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Go-rgb(0, 174, 217)?style=flat-square&logo=go&logoColor=white"/>
   </p>
 
   <p>
