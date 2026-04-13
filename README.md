@@ -40,17 +40,17 @@
   </picture>
 
   <div align="center">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=btcb&theme=radical&hide_border=false&include_all_commits=false&count_private=false" height="160" alt="stats graph" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=btcb&theme=radical&hide_border=false" height="160" alt="streak graph" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=btcb&hide_border=false&include_all_commits=false&count_private=false" height="160" alt="stats graph" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=btcb&hide_border=false" height="160" alt="streak graph" />
   </div>
 
   <div align="center">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=btcbi&theme=radical&hide_border=false&layout=compact&langs_count=6" height="160" alt="languages graph" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=btcb&theme=radical&utcOffset=8" height="160" alt="productive time" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=btcb&theme=hide_border=false&layout=compact&langs_count=6" height="160" alt="languages graph" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=btcb&utcOffset=8" height="160" alt="productive time" />
   </div>
 
   <div align="center">
-    <img src="https://github-trophies.vercel.app/?username=btcb&theme=radical&no-frame=true&margin-w=4&row=2&column=4" alt="trophies" />
+    <img src="https://github-trophies.vercel.app/?username=btcb&no-frame=true&margin-w=4&row=2&column=4" alt="trophies" />
   </div>
 </div>
 
