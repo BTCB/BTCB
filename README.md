@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/-Solana-rgb(153, 69, 255)?style=flat-square&logo=solana&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Sui-rgb(74, 158, 247)?style=flat-square&logo=julia&logoColor=white"/>
   </p>
-  
+
   <p>
     <img src="https://img.shields.io/badge/-Nestjs-rgb(234, 40, 69)?style=flat-square&logo=nestjs&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Rust-rgb(161, 78, 10)?style=flat-square&logo=rust&logoColor=white"/>
@@ -32,19 +32,29 @@
     <img src="https://img.shields.io/badge/-Docker-blue?style=flat-lavender&logo=docker&logoColor=white"/>
     <img src="https://img.shields.io/badge/-Kubernetes-rgb(48, 105, 222)?style=flat-lavender&logo=kubernetes&logoColor=white"/>
   </p>
-  
-  <p>
-    <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BTCB&layout=compact&theme=chartreuse-dark&count_private=true" />
-  </p>
-  
-  <p>
-    <img src="https://github-profile-trophy.vercel.app/?username=BTCB&theme=algolia&row=1&column=4&margin-w=5" />
-  </p>
-  
-  <p>
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=BTCB&count_private=true&theme=highcontrast&show_icons=true" />
-  </p>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake.svg" />
+  </picture>
+
+  <div align="center">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=btcb&theme=radical&hide_border=false&include_all_commits=false&count_private=false" height="160" alt="stats graph" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=btcb&theme=radical&hide_border=false" height="160" alt="streak graph" />
+  </div>
+
+  <div align="center">
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=btcbi&theme=radical&hide_border=false&layout=compact&langs_count=6" height="160" alt="languages graph" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=btcb&theme=radical&utcOffset=8" height="160" alt="productive time" />
+  </div>
+
+  <div align="center">
+    <img src="https://github-trophies.vercel.app/?username=btcb&theme=radical&no-frame=true&margin-w=4&row=2&column=4" alt="trophies" />
+  </div>
 </div>
+
+---
 
 - Former developer of Huobi Heco chain
 - Front End & Back End & DevOps & Contract
