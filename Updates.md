@@ -23,3 +23,7 @@
 ## 2026-04-18 (animated header SVG) UTC+8
 
 - Replaced capsule-render banner with repo-hosted `assets/header-btcb.svg`: SMIL aurora mesh, blurred plasma orbs, drifting ion particles, gradient title — no JavaScript (GitHub profile limitation).
+
+## 2026-04-18 (BTCB title neon stack) UTC+8
+
+- Enhanced `BTCB` lettering: multi-layer outer glow (blur-only), cyan/magenta chromatic offset, sparse glitch flashes, breathing scale, dual gradient fill with animated gradient sweep, neon halo + soft inner glow, pulsing electric strokes.

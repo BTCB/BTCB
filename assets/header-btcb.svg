@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="btcb-title btcb-desc" preserveAspectRatio="xMidYMid slice">
   <title id="btcb-title">BTCB</title>
-  <desc id="btcb-desc">Animated aurora header with ion particles and glow.</desc>
+  <desc id="btcb-desc">Animated aurora header with ion particles, neon title stack, and chromatic glow.</desc>
   <defs>
     <linearGradient id="bgMesh" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#020617">
@@ -23,17 +23,32 @@
       <stop offset="65%" stop-color="#22d3ee" stop-opacity="0.12"/>
       <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="objectBoundingBox">
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.15 0;0.15 0;-0.15 0" dur="7s" repeatCount="indefinite"/>
       <stop offset="0%" stop-color="#67e8f9">
-        <animate attributeName="stop-color" values="#67e8f9;#a78bfa;#22d3ee;#67e8f9" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#67e8f9;#a78bfa;#22d3ee;#67e8f9" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#a78bfa">
-        <animate attributeName="stop-color" values="#a78bfa;#22d3ee;#c4b5fd;#a78bfa" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#a78bfa;#22d3ee;#c4b5fd;#a78bfa" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#e2e8f0">
-        <animate attributeName="stop-color" values="#e2e8f0;#67e8f9;#a5b4fc;#e2e8f0" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#e2e8f0;#67e8f9;#a5b4fc;#e2e8f0" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
+    <filter id="glowOnly" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="22" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+      </feMerge>
+    </filter>
+    <filter id="neonHalo" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.15 0" result="b2"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="b"/>
       <feMerge>
@@ -111,8 +126,36 @@
     </circle>
   </g>
 
-  <!-- Title -->
-  <text x="600" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" fill="url(#titleGrad)" filter="url(#softGlow)">BTCB</text>
+  <!-- Title: neon stack (SMIL: layered glow, chromatic drift, pulse, strobes) -->
+  <g transform="translate(600,145)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" text-anchor="middle">
+    <g>
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" values="1;1.024;1" dur="3.1s" repeatCount="indefinite"/>
+      <!-- soft outer plasma (blur only) -->
+      <text x="0" y="0" dominant-baseline="middle" fill="#22d3ee" opacity="0.55" filter="url(#glowOnly)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="#a78bfa" opacity="0.35" filter="url(#glowOnly)" transform="translate(0,3)">BTCB</text>
+      <!-- chromatic aberration drift -->
+      <text x="0" y="0" dominant-baseline="middle" fill="#22d3ee" opacity="0.42" transform="translate(-3,0)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="#f472b6" opacity="0.38" transform="translate(3,0)">BTCB</text>
+      <!-- glitch flash (sparse) -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0.9;0;0;0;0;0;0" dur="5.2s" repeatCount="indefinite"/>
+        <text x="-5" y="0" dominant-baseline="middle" fill="#67e8f9">BTCB</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;0;0.75;0;0;0;0" dur="5.2s" repeatCount="indefinite" begin="1.1s"/>
+        <text x="4" y="-1" dominant-baseline="middle" fill="#a78bfa">BTCB</text>
+      </g>
+      <!-- main letterform -->
+      <text x="0" y="0" dominant-baseline="middle" fill="url(#titleGrad)" filter="url(#neonHalo)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="url(#titleGrad)" filter="url(#softGlow)">BTCB</text>
+      <!-- electric strokes -->
+      <text x="0" y="0" dominant-baseline="middle" fill="none" stroke="#ecfeff" stroke-width="1.1" paint-order="stroke fill">
+        <animate attributeName="stroke-opacity" values="0.25;1;0.45;0.95;0.25" dur="2.2s" repeatCount="indefinite"/>
+        <tspan>BTCB</tspan>
+      </text>
+      <text x="0" y="0" dominant-baseline="middle" fill="none" stroke="#22d3ee" stroke-width="0.55" stroke-opacity="0.95" paint-order="stroke fill">BTCB</text>
+    </g>
+  </g>
   <text x="600" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#94a3b8" letter-spacing="0.08em">FULL-STACK &#183; WEB3 &#183; DEVOPS</text>
 
   <!-- Bottom accent line -->
