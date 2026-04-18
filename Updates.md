@@ -15,3 +15,7 @@
 ## 2026-04-18 (capsule-render fix) UTC+8
 
 - Fixed capsule-render header: removed `&` from `desc` (API forbids `&`/`#`/`/` in text fields; `%26` still breaks parsing). Switched to `Full-stack and Web3`, used explicit `color=0:…,100:…` gradient, and HTML `<img width="100%">` for reliable GitHub rendering.
+
+## 2026-04-18 (trophy host) UTC+8
+
+- Switched trophy widget from `github-profile-trophy.vercel.app` (returns `503 DEPLOYMENT_PAUSED`) to the working mirror `github-trophies.vercel.app` (same query parameters, SVG image).
