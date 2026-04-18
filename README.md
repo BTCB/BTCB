@@ -8,15 +8,25 @@
 <div align="center">
   <h2>Hi, I'm Clayon 👋</h2>
   <p>Full-stack engineer focused on Web3, distributed systems, and production-grade DevOps.</p>
-  <img src="https://komarev.com/ghpvc/?username=BTCB&style=flat-square&labelColor=1e293b&color=22d3ee&label=VIEWS" alt="Profile views" />
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Vue%20%7C%20Next-22d3ee?style=flat-square&logo=react&logoColor=0f172a&labelColor=1e293b" alt="frontend" /></br>
-  <img src="https://img.shields.io/badge/Backend-Go%20%7C%20Rust%20%7C%20Nest-a78bfa?style=flat-square&logo=go&logoColor=0f172a&labelColor=1e293b" alt="backend" /></br>
-  <img src="https://img.shields.io/badge/Data-PostgreSQL%20%7C%20MySQL%20%7C%20Redis-2dd4bf?style=flat-square&logo=postgresql&logoColor=0f172a&labelColor=1e293b" alt="data" /></br>
-  <img src="https://img.shields.io/badge/Web3-Solana%20%7C%20Move%20(Sui)-c084fc?style=flat-square&logo=solana&logoColor=0f172a&labelColor=1e293b" alt="web3" /></br>
-  <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20K8s%20%7C%20AWS-38bdf8?style=flat-square&logo=docker&logoColor=0f172a&labelColor=1e293b" alt="devops" />
+  <br />
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=BTCB&style=for-the-badge&labelColor=1e293b&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views" />
+  </p>
+  <br /><br />
+  <p><strong>Tech stack</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Vue%20%7C%20Next-22d3ee?style=flat-square&logo=react&logoColor=0f172a&labelColor=1e293b" alt="Frontend: React, Vue, Next" />
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Backend-Go%20%7C%20Rust%20%7C%20Nest-a78bfa?style=flat-square&logo=go&logoColor=0f172a&labelColor=1e293b" alt="Backend: Go, Rust, Nest" />
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Data-PostgreSQL%20%7C%20MySQL%20%7C%20Redis-2dd4bf?style=flat-square&logo=postgresql&logoColor=0f172a&labelColor=1e293b" alt="Data: PostgreSQL, MySQL, Redis" />
+  </p>
+  <br />
+  <p>
+    <img src="https://img.shields.io/badge/Web3-Solana%20%7C%20Move%20(Sui)-c084fc?style=flat-square&logo=solana&logoColor=0f172a&labelColor=1e293b" alt="Web3: Solana, Move (Sui)" />
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20K8s%20%7C%20AWS-38bdf8?style=flat-square&logo=docker&logoColor=0f172a&labelColor=1e293b" alt="DevOps: Docker, Kubernetes, AWS" />
+  </p>
 </div>
 
 ## About Me
