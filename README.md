@@ -15,17 +15,17 @@
   <br /><br />
   <p><strong>Tech stack</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Vue%20%7C%20Next-0284c7?style=flat-square&logo=react&logoColor=ffffff&labelColor=e2e8f0" alt="Frontend: React, Vue, Next" />
+    <img src="https://img.shields.io/badge/Frontend-React%20%7C%20Vue%20%7C%20Next-0284c7?style=flat-square&logo=react&logoColor=ffffff&labelColor=6c757d" alt="Frontend: React, Vue, Next" />
     &nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/Backend-Go%20%7C%20Rust%20%7C%20Nest-1d4ed8?style=flat-square&logo=go&logoColor=ffffff&labelColor=e2e8f0" alt="Backend: Go, Rust, Nest" />
+    <img src="https://img.shields.io/badge/Backend-Go%20%7C%20Rust%20%7C%20Nest-1d4ed8?style=flat-square&logo=go&logoColor=ffffff&labelColor=6c757d" alt="Backend: Go, Rust, Nest" />
     &nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/Data-PostgreSQL%20%7C%20MySQL%20%7C%20Redis-0d9488?style=flat-square&logo=postgresql&logoColor=ffffff&labelColor=e2e8f0" alt="Data: PostgreSQL, MySQL, Redis" />
+    <img src="https://img.shields.io/badge/Data-PostgreSQL%20%7C%20MySQL%20%7C%20Redis-0d9488?style=flat-square&logo=postgresql&logoColor=ffffff&labelColor=6c757d" alt="Data: PostgreSQL, MySQL, Redis" />
   </p>
   <br />
   <p>
-    <img src="https://img.shields.io/badge/Web3-Solana%20%7C%20Move%20(Sui)-ea580c?style=flat-square&logo=solana&logoColor=ffffff&labelColor=e2e8f0" alt="Web3: Solana, Move (Sui)" />
+    <img src="https://img.shields.io/badge/Web3-Solana%20%7C%20Move%20(Sui)-ea580c?style=flat-square&logo=solana&logoColor=ffffff&labelColor=6c757d" alt="Web3: Solana, Move (Sui)" />
     &nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20K8s%20%7C%20AWS-0369a1?style=flat-square&logo=docker&logoColor=ffffff&labelColor=e2e8f0" alt="DevOps: Docker, Kubernetes, AWS" />
+    <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20K8S%20%7C%20AWS-0369a1?style=flat-square&logo=docker&logoColor=ffffff&labelColor=6c757d" alt="DevOps: Docker, Kubernetes, AWS" />
   </p>
 </div>
 
@@ -49,10 +49,6 @@
 </div>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=btcb&hide_border=true&radius=10&area=true&bg_color=f8fafc&color=0284c7&line=1d4ed8&point=ea580c&area_color=bfdbfe" alt="Contribution activity" />
-</div>
-
-<div align="center">
   <!-- github-profile-trophy.vercel.app often 503 DEPLOYMENT_PAUSED; mirror is API-compatible -->
   <img src="https://github-trophies.vercel.app/?username=btcb&theme=algolia&no-frame=true&no-bg=false&margin-w=10&margin-h=10&row=2&column=4" alt="GitHub trophies" />
 </div>
@@ -65,4 +61,8 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake.svg" />
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake.svg" />
   </picture>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=btcb&hide_border=true&radius=10&area=true&bg_color=f8fafc&color=0284c7&line=1d4ed8&point=ea580c&area_color=bfdbfe" alt="Contribution activity" />
 </div>
