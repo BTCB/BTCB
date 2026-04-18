@@ -27,3 +27,7 @@
 ## 2026-04-18 (BTCB title neon stack) UTC+8
 
 - Enhanced `BTCB` lettering: multi-layer outer glow (blur-only), cyan/magenta chromatic offset, sparse glitch flashes, breathing scale, dual gradient fill with animated gradient sweep, neon halo + soft inner glow, pulsing electric strokes.
+
+## 2026-04-18 (Candy Prism theme) UTC+8
+
+- Switched profile theme from dark **Aurora Midnight** to bright **Candy Prism**: pastel mesh header SVG, rainbow `BTCB` fill, vivid orbs and particles; README badges and stats/streak/langs/activity/trophies/productive-time colors aligned; snake outputs use candy dot ramps.
