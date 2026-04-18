@@ -2,7 +2,8 @@
 <!-- Theme: Aurora Midnight — bg #0f172a · primary #22d3ee · accent #a78bfa -->
 # BTCB
 
-![header](https://capsule-render.vercel.app/api?type=wave&height=280&section=header&text=BTCB&fontSize=72&animation=fadeIn&fontAlignY=38&color=gradient&customColorList=24&fontColor=e2e8f0&desc=Full-stack%20%26%20Web3&descAlignY=58&descSize=18)
+<!-- desc must not contain & # / per capsule-render API; use "and" or · instead -->
+<img width="100%" alt="BTCB profile header" src="https://capsule-render.vercel.app/api?type=wave&height=280&section=header&text=BTCB&fontSize=72&animation=fadeIn&fontAlignY=38&color=0:0f172a,50:312e81,100:0ea5e9&fontColor=e2e8f0&desc=Full-stack%20and%20Web3&descAlignY=58&descSize=18" />
 
 <div align="center">
   <h2>Hi, I'm Clayon 👋</h2>

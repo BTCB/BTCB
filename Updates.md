@@ -11,3 +11,7 @@
 
 - Applied unified **Aurora Midnight** theme across `README.md`: capsule header, badges, GitHub stats, streak, languages, activity graph, productive-time card (Tokyo Night), and trophies (One Dark).
 - Aligned Platane `snk` snake colors with the same palette for light SVG, dark SVG, and GIF output.
+
+## 2026-04-18 (capsule-render fix) UTC+8
+
+- Fixed capsule-render header: removed `&` from `desc` (API forbids `&`/`#`/`/` in text fields; `%26` still breaks parsing). Switched to `Full-stack and Web3`, used explicit `color=0:…,100:…` gradient, and HTML `<img width="100%">` for reliable GitHub rendering.
