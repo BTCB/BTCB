@@ -31,3 +31,7 @@
 ## 2026-04-18 (Candy Prism theme) UTC+8
 
 - Switched profile theme from dark **Aurora Midnight** to bright **Candy Prism**: pastel mesh header SVG, rainbow `BTCB` fill, vivid orbs and particles; README badges and stats/streak/langs/activity/trophies/productive-time colors aligned; snake outputs use candy dot ramps.
+
+## 2026-04-18 (Cobalt Forge — less pink) UTC+8
+
+- Retuned **Candy Prism** into **Cobalt Forge**: cool slate/sky base, cobalt and electric cyan orbs, amber/orange forge accents, navy subtitle; removed rose/magenta dominance in SVG and README widgets. Productive-time card uses `theme=github`; trophies `theme=algolia`; snake dots cobalt/amber/blue ramps.

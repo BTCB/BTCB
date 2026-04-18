@@ -1,41 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="btcb-title btcb-desc" preserveAspectRatio="xMidYMid slice">
   <title id="btcb-title">BTCB</title>
-  <desc id="btcb-desc">Bright candy-prism header: pastel mesh, vivid orbs, rainbow title.</desc>
+  <desc id="btcb-desc">Cobalt Forge header: cool steel blues, electric cyan, amber accents, SMIL motion.</desc>
   <defs>
     <linearGradient id="bgMesh" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#fff7ed">
-        <animate attributeName="stop-color" values="#fff7ed;#fef3c7;#fce7f3;#fff7ed" dur="16s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#f1f5f9">
+        <animate attributeName="stop-color" values="#f1f5f9;#e0f2fe;#f8fafc;#f1f5f9" dur="16s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="45%" stop-color="#e0f2fe">
-        <animate attributeName="stop-color" values="#e0f2fe;#fef08a;#ddd6fe;#e0f2fe" dur="20s" repeatCount="indefinite"/>
+      <stop offset="45%" stop-color="#dbeafe">
+        <animate attributeName="stop-color" values="#dbeafe;#cffafe;#e2e8f0;#dbeafe" dur="20s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#fdf4ff">
-        <animate attributeName="stop-color" values="#fdf4ff;#d1fae5;#fce7f3;#fdf4ff" dur="18s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#f0f9ff">
+        <animate attributeName="stop-color" values="#f0f9ff;#e0f2fe;#f1f5f9;#f0f9ff" dur="18s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <radialGradient id="orbA" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.65"/>
-      <stop offset="55%" stop-color="#f472b6" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#fff7ed" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.62"/>
+      <stop offset="50%" stop-color="#0ea5e9" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#f1f5f9" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="orbB" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
-      <stop offset="60%" stop-color="#a78bfa" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#fef9c3" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.52"/>
+      <stop offset="55%" stop-color="#0369a1" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#e2e8f0" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="objectBoundingBox">
       <animateTransform attributeName="gradientTransform" type="translate" values="-0.18 0;0.18 0;-0.18 0" dur="6s" repeatCount="indefinite"/>
-      <stop offset="0%" stop-color="#ec4899">
-        <animate attributeName="stop-color" values="#ec4899;#f59e0b;#22c55e;#ec4899" dur="5s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#0284c7">
+        <animate attributeName="stop-color" values="#0284c7;#1d4ed8;#0369a1;#0284c7" dur="5.5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="35%" stop-color="#06b6d4">
-        <animate attributeName="stop-color" values="#06b6d4;#8b5cf6;#f97316;#06b6d4" dur="5s" repeatCount="indefinite"/>
+      <stop offset="35%" stop-color="#0ea5e9">
+        <animate attributeName="stop-color" values="#0ea5e9;#ea580c;#0284c7;#0ea5e9" dur="5.5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="70%" stop-color="#a855f7">
-        <animate attributeName="stop-color" values="#a855f7;#ec4899;#14b8a6;#a855f7" dur="5s" repeatCount="indefinite"/>
+      <stop offset="70%" stop-color="#1e40af">
+        <animate attributeName="stop-color" values="#1e40af;#0d9488;#2563eb;#1e40af" dur="5.5s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#f43f5e">
-        <animate attributeName="stop-color" values="#f43f5e;#eab308;#6366f1;#f43f5e" dur="5s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#ca8a04">
+        <animate attributeName="stop-color" values="#ca8a04;#0284c7;#1e3a8a;#ca8a04" dur="5.5s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
     <filter id="glowOnly" x="-80%" y="-80%" width="260%" height="260%">
@@ -67,7 +67,7 @@
 
   <rect width="1200" height="300" fill="url(#bgMesh)"/>
 
-  <g filter="url(#bigBlur)" opacity="0.72">
+  <g filter="url(#bigBlur)" opacity="0.7">
     <ellipse cx="280" cy="120" rx="200" ry="130" fill="url(#orbA)">
       <animateTransform attributeName="transform" type="translate" additive="sum"
         values="0,0; 55,-22; -28,38; 18,8; 0,0" dur="26s" repeatCount="indefinite"/>
@@ -78,7 +78,7 @@
     </ellipse>
   </g>
 
-  <g opacity="0.22" stroke="#c026d3" stroke-width="0.55" fill="none">
+  <g opacity="0.2" stroke="#0369a1" stroke-width="0.55" fill="none">
     <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200"/>
     <path d="M150 0 V300 M300 0 V300 M450 0 V300 M600 0 V300 M750 0 V300 M900 0 V300 M1050 0 V300">
       <animate attributeName="opacity" values="0.1;0.28;0.1" dur="5.5s" repeatCount="indefinite"/>
@@ -86,41 +86,41 @@
   </g>
 
   <g>
-    <circle cx="120" cy="40" r="2" fill="#f59e0b" opacity="0.9">
+    <circle cx="120" cy="40" r="2" fill="#ea580c" opacity="0.9">
       <animate attributeName="cy" values="40;260;40" dur="11s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.35;1;0.35" dur="2.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="340" cy="200" r="1.4" fill="#ec4899" opacity="0.85">
+    <circle cx="340" cy="200" r="1.4" fill="#0284c7" opacity="0.88">
       <animate attributeName="cy" values="200;30;200" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="cx" values="340;385;340" dur="14s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.25;1;0.25" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="520" cy="90" r="1.6" fill="#06b6d4" opacity="0.95">
+    <circle cx="520" cy="90" r="1.6" fill="#38bdf8" opacity="0.95">
       <animate attributeName="cy" values="90;240;90" dur="9s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="680" cy="220" r="1.1" fill="#22c55e" opacity="0.75">
+    <circle cx="680" cy="220" r="1.1" fill="#0d9488" opacity="0.78">
       <animate attributeName="cy" values="220;50;220" dur="13s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.2;0.95;0.2" dur="3.8s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="840" cy="60" r="1.7" fill="#a855f7" opacity="0.88">
+    <circle cx="840" cy="60" r="1.7" fill="#1d4ed8" opacity="0.88">
       <animate attributeName="cy" values="60;270;60" dur="12s" repeatCount="indefinite"/>
       <animate attributeName="cx" values="840;805;840" dur="12s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1020" cy="180" r="1.4" fill="#f43f5e" opacity="0.82">
+    <circle cx="1020" cy="180" r="1.4" fill="#ca8a04" opacity="0.85">
       <animate attributeName="cy" values="180;40;180" dur="10s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.28;1;0.28" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="200" cy="250" r="1" fill="#eab308" opacity="0.7">
+    <circle cx="200" cy="250" r="1" fill="#f59e0b" opacity="0.72">
       <animate attributeName="cy" values="250;80;250" dur="15s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.15;0.85;0.15" dur="4.5s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="580" cy="280" r="1.2" fill="#6366f1" opacity="0.78">
+    <circle cx="580" cy="280" r="1.2" fill="#1e40af" opacity="0.8">
       <animate attributeName="cy" values="280;100;280" dur="16s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1080" cy="120" r="1.6" fill="#14b8a6" opacity="0.9">
+    <circle cx="1080" cy="120" r="1.6" fill="#22c55e" opacity="0.88">
       <animate attributeName="cy" values="120;290;120" dur="8.5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.25;1;0.25" dur="1.9s" repeatCount="indefinite"/>
     </circle>
@@ -129,13 +129,13 @@
   <g transform="translate(600,145)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" text-anchor="middle">
     <g>
       <animateTransform attributeName="transform" attributeType="XML" type="scale" values="1;1.026;1" dur="3s" repeatCount="indefinite"/>
-      <text x="0" y="0" dominant-baseline="middle" fill="#f472b6" opacity="0.5" filter="url(#glowOnly)">BTCB</text>
-      <text x="0" y="0" dominant-baseline="middle" fill="#38bdf8" opacity="0.42" filter="url(#glowOnly)" transform="translate(0,3)">BTCB</text>
-      <text x="0" y="0" dominant-baseline="middle" fill="#22d3ee" opacity="0.5" transform="translate(-3,0)">BTCB</text>
-      <text x="0" y="0" dominant-baseline="middle" fill="#fb7185" opacity="0.45" transform="translate(3,0)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="#0ea5e9" opacity="0.52" filter="url(#glowOnly)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="#1d4ed8" opacity="0.42" filter="url(#glowOnly)" transform="translate(0,3)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="#0284c7" opacity="0.5" transform="translate(-3,0)">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="#ea580c" opacity="0.45" transform="translate(3,0)">BTCB</text>
       <g opacity="0">
         <animate attributeName="opacity" values="0;0;0;0.92;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>
-        <text x="-5" y="0" dominant-baseline="middle" fill="#a855f7">BTCB</text>
+        <text x="-5" y="0" dominant-baseline="middle" fill="#38bdf8">BTCB</text>
       </g>
       <g opacity="0">
         <animate attributeName="opacity" values="0;0;0;0;0;0.8;0;0;0;0" dur="5s" repeatCount="indefinite" begin="1s"/>
@@ -143,16 +143,16 @@
       </g>
       <text x="0" y="0" dominant-baseline="middle" fill="url(#titleGrad)" filter="url(#neonHalo)">BTCB</text>
       <text x="0" y="0" dominant-baseline="middle" fill="url(#titleGrad)" filter="url(#softGlow)">BTCB</text>
-      <text x="0" y="0" dominant-baseline="middle" fill="none" stroke="#ffffff" stroke-width="1.35" paint-order="stroke fill">
+      <text x="0" y="0" dominant-baseline="middle" fill="none" stroke="#f8fafc" stroke-width="1.35" paint-order="stroke fill">
         <animate attributeName="stroke-opacity" values="0.55;1;0.65;1;0.55" dur="2s" repeatCount="indefinite"/>
         <tspan>BTCB</tspan>
       </text>
-      <text x="0" y="0" dominant-baseline="middle" fill="none" stroke="#9d174d" stroke-width="0.5" stroke-opacity="0.55" paint-order="stroke fill">BTCB</text>
+      <text x="0" y="0" dominant-baseline="middle" fill="none" stroke="#0c4a6e" stroke-width="0.55" stroke-opacity="0.65" paint-order="stroke fill">BTCB</text>
     </g>
   </g>
-  <text x="600" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#9d174d" letter-spacing="0.08em">FULL-STACK &#183; WEB3 &#183; DEVOPS</text>
+  <text x="600" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#0f172a" letter-spacing="0.08em">FULL-STACK &#183; WEB3 &#183; DEVOPS</text>
 
-  <rect x="420" y="218" width="360" height="3" rx="1.5" fill="url(#titleGrad)" opacity="0.65">
-    <animate attributeName="opacity" values="0.45;0.95;0.45" dur="3.5s" repeatCount="indefinite"/>
+  <rect x="420" y="218" width="360" height="3" rx="1.5" fill="url(#titleGrad)" opacity="0.62">
+    <animate attributeName="opacity" values="0.42;0.92;0.42" dur="3.5s" repeatCount="indefinite"/>
   </rect>
 </svg>
