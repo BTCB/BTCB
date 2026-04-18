@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="btcb-title btcb-desc" preserveAspectRatio="xMidYMid slice">
+  <title id="btcb-title">BTCB</title>
+  <desc id="btcb-desc">Animated aurora header with ion particles and glow.</desc>
+  <defs>
+    <linearGradient id="bgMesh" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#0f172a;#172554;#020617" dur="18s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#1e1b4b">
+        <animate attributeName="stop-color" values="#1e1b4b;#164e63;#312e81;#1e1b4b" dur="22s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#0c4a6e;#1e293b;#0f172a" dur="20s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="orbA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#a78bfa" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.45"/>
+      <stop offset="65%" stop-color="#22d3ee" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9">
+        <animate attributeName="stop-color" values="#67e8f9;#a78bfa;#22d3ee;#67e8f9" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#22d3ee;#c4b5fd;#a78bfa" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#e2e8f0">
+        <animate attributeName="stop-color" values="#e2e8f0;#67e8f9;#a5b4fc;#e2e8f0" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="bigBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="45" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.9 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgMesh)"/>
+
+  <!-- Large aurora orbs (ion plasma) -->
+  <g filter="url(#bigBlur)" opacity="0.85">
+    <ellipse cx="280" cy="120" rx="200" ry="130" fill="url(#orbA)">
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        values="0,0; 60,-25; -30,40; 20,10; 0,0" dur="28s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="900" cy="180" rx="220" ry="140" fill="url(#orbB)">
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        values="0,0; -50,20; 40,-35; -10,-15; 0,0" dur="32s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Subtle grid / ion field lines -->
+  <g opacity="0.12" stroke="#22d3ee" stroke-width="0.5" fill="none">
+    <path d="M0 75 H1200 M0 150 H1200 M0 225 H1200"/>
+    <path d="M150 0 V300 M300 0 V300 M450 0 V300 M600 0 V300 M750 0 V300 M900 0 V300 M1050 0 V300">
+      <animate attributeName="opacity" values="0.06;0.18;0.06" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Floating ion particles -->
+  <g fill="#e0f2fe">
+    <circle cx="120" cy="40" r="1.8" opacity="0.85">
+      <animate attributeName="cy" values="40;260;40" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="200" r="1.2" opacity="0.7">
+      <animate attributeName="cy" values="200;30;200" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="340;380;340" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.95;0.15" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="520" cy="90" r="1.5" opacity="0.9">
+      <animate attributeName="cy" values="90;240;90" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="220" r="1" opacity="0.6">
+      <animate attributeName="cy" values="220;50;220" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="60" r="1.6" opacity="0.75">
+      <animate attributeName="cy" values="60;270;60" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="840;800;840" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="180" r="1.3" opacity="0.8">
+      <animate attributeName="cy" values="180;40;180" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;0.95;0.25" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="250" r="0.9" opacity="0.5" fill="#a78bfa">
+      <animate attributeName="cy" values="250;80;250" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="580" cy="280" r="1.1" opacity="0.65" fill="#a78bfa">
+      <animate attributeName="cy" values="280;100;280" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.15;0.85;0.15" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="120" r="1.4" fill="#67e8f9">
+      <animate attributeName="cy" values="120;290;120" dur="8.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="145" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="700" fill="url(#titleGrad)" filter="url(#softGlow)">BTCB</text>
+  <text x="600" y="195" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#94a3b8" letter-spacing="0.08em">FULL-STACK &#183; WEB3 &#183; DEVOPS</text>
+
+  <!-- Bottom accent line -->
+  <rect x="420" y="218" width="360" height="2" rx="1" fill="url(#titleGrad)" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.55;0.2" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

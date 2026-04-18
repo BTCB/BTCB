@@ -2,8 +2,8 @@
 <!-- Theme: Aurora Midnight — bg #0f172a · primary #22d3ee · accent #a78bfa -->
 # BTCB
 
-<!-- desc must not contain & # / per capsule-render API; use "and" or · instead -->
-<img width="100%" alt="BTCB profile header" src="https://capsule-render.vercel.app/api?type=wave&height=280&section=header&text=BTCB&fontSize=72&animation=fadeIn&fontAlignY=38&color=0:0f172a,50:312e81,100:0ea5e9&fontColor=e2e8f0&desc=Full-stack%20and%20Web3&descAlignY=58&descSize=18" />
+<!-- Profile README cannot run JS/canvas; header is self-hosted animated SVG (SMIL: aurora + ion particles). -->
+<img width="100%" alt="BTCB — animated aurora header" src="https://raw.githubusercontent.com/BTCB/BTCB/main/assets/header-btcb.svg" />
 
 <div align="center">
   <h2>Hi, I'm Clayon 👋</h2>

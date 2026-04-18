@@ -19,3 +19,7 @@
 ## 2026-04-18 (trophy host) UTC+8
 
 - Switched trophy widget from `github-profile-trophy.vercel.app` (returns `503 DEPLOYMENT_PAUSED`) to the working mirror `github-trophies.vercel.app` (same query parameters, SVG image).
+
+## 2026-04-18 (animated header SVG) UTC+8
+
+- Replaced capsule-render banner with repo-hosted `assets/header-btcb.svg`: SMIL aurora mesh, blurred plasma orbs, drifting ion particles, gradient title — no JavaScript (GitHub profile limitation).
