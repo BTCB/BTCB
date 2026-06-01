@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 -->
 <!-- Theme: Cobalt Forge — steel / navy blues, electric cyan, amber accents -->
-# BTCB
+ 
 
 <!-- Profile README cannot run JS/canvas; header is self-hosted animated SVG (SMIL). -->
 <img width="100%" alt="BTCB — cobalt forge header" src="https://raw.githubusercontent.com/BTCB/BTCB/main/assets/header-btcb.svg" />
@@ -39,12 +39,12 @@
 ## GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=btcb&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=f8fafc&title_color=1e40af&icon_color=0284c7&text_color=334155&border_radius=12" alt="GitHub stats" />
+  <img height="165" src="assets/github-metrics.svg" alt="GitHub stats" />
   <img height="165" src="https://streak-stats.demolab.com/?user=btcb&hide_border=true&date_format=%5BY.%5Dn.j&background=f0f9ff&border=7dd3fc&stroke=bae6fd&ring=0284c7&fire=ea580c&currStreakLabel=1e40af&currStreakNum=0f172a&sideLabels=0369a1&sideNums=475569&dates=64748b" alt="Streak stats" />
 </div>
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=btcb&layout=compact&langs_count=8&hide_border=true&bg_color=f8fafc&title_color=1e40af&icon_color=0284c7&text_color=334155&border_radius=12" alt="Top languages" />
+  <img height="165" src="assets/github-languages.svg" alt="Top languages" />
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=btcb&utcOffset=8&theme=github" alt="Productive time" />
 </div>
 
