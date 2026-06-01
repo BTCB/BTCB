@@ -12,6 +12,10 @@ jobs:
       contents: write
 
     steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
       - name: Stats overview
         uses: lowlighter/metrics@latest
         with:
@@ -19,8 +23,9 @@ jobs:
           user: BTCB
           filename: assets/github-metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories
           config_timezone: Asia/Shanghai
+          output_action: none
 
       - name: Top languages
         uses: lowlighter/metrics@latest
@@ -32,5 +37,31 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 15
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_analysis_timeout: 30
           config_timezone: Asia/Shanghai
+          output_action: none
+
+      - name: Apply Cobalt Forge theme
+        run: |
+          for f in assets/github-metrics.svg assets/github-languages.svg; do
+            [ -f "$f" ] || { echo "Skip: $f not found"; continue; }
+            sed -i \
+              -e 's/#9be9a8/#bae6fd/g' \
+              -e 's/#40c463/#38bdf8/g' \
+              -e 's/#30a14e/#0284c7/g' \
+              -e 's/#216e39/#0369a1/g' \
+              -e 's/#ebedf0/#e2e8f0/g' \
+              -e 's/#0366d6/#1e40af/g' \
+              -e 's/"#959da5"/"#0284c7"/g' \
+              -e 's/fill:#959da5/fill:#0284c7/g' \
+              "$f"
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-metrics.svg assets/github-languages.svg
+          git diff --cached --quiet || (git commit -m "chore: update GitHub metrics [skip ci]" && git push)
