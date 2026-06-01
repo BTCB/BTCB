@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 -->
 <!-- Theme: Cobalt Forge — steel / navy blues, electric cyan, amber accents -->
- 
+
 
 <!-- Profile README cannot run JS/canvas; header is self-hosted animated SVG (SMIL). -->
 <img width="100%" alt="BTCB — cobalt forge header" src="https://raw.githubusercontent.com/BTCB/BTCB/main/assets/header-btcb.svg" />
