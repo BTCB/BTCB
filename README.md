@@ -53,14 +53,10 @@
   <img src="https://github-trophies.vercel.app/?username=btcb&theme=algolia&no-frame=true&no-bg=false&margin-w=10&margin-h=10&row=2&column=4" alt="GitHub trophies" />
 </div>
 
-## Contribution Snake
+## Contribution Pac-Man
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/BTCB/BTCB/output/github-snake.svg" />
-  </picture>
+  <img alt="Contribution Pac-Man" src="https://raw.githubusercontent.com/BTCB/BTCB/output/pacman.svg" />
 </div>
 
 <div align="center">
