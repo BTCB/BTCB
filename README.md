@@ -1,9 +1,11 @@
 <!-- markdownlint-disable MD033 -->
 <!-- Theme: Cobalt Forge — steel / navy blues, electric cyan, amber accents -->
 
-
 <!-- Profile README cannot run JS/canvas; header is self-hosted animated SVG (SMIL). -->
+
 <img width="100%" alt="BTCB — cobalt forge header" src="https://raw.githubusercontent.com/BTCB/BTCB/main/assets/header-btcb.svg" />
+
+<img width="100%" src="assets/octodex.gif" alt="octodex" />
 
 <div align="center">
   <h2>Hi, I'm Clayon 👋</h2>
@@ -40,11 +42,13 @@
 
 <div align="center">
   <img width="400" src="assets/github-metrics.svg" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com/?user=btcb&hide_border=true&date_format=%5BY.%5Dn.j&background=f0f9ff&border=7dd3fc&stroke=bae6fd&ring=0284c7&fire=ea580c&currStreakLabel=1e40af&currStreakNum=0f172a&sideLabels=0369a1&sideNums=475569&dates=64748b" alt="Streak stats" />
+
+  <img height="165" src="https://streak-stats.demolab.com?user=btcb&theme=vue" alt="Streak stats" />
 </div>
 
 <div align="center">
   <img width="400" src="assets/github-languages.svg" alt="Top languages" />
+
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=btcb&utcOffset=8&theme=github" alt="Productive time" />
 </div>
 
