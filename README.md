@@ -56,7 +56,7 @@
 ## Contribution Pac-Man
 
 <div align="center">
-  <img alt="Contribution Pac-Man" src="https://raw.githubusercontent.com/BTCB/BTCB/output/pacman.svg" />
+  <img alt="Contribution Pac-Man" src="https://raw.githubusercontent.com/BTCB/BTCB/output/pacman-contribution-graph.svg" />
 </div>
 
 <div align="center">
