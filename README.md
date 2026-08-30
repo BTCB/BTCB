@@ -5,8 +5,6 @@
 
 <img width="100%" alt="BTCB — cobalt forge header" src="https://raw.githubusercontent.com/BTCB/BTCB/main/assets/header-btcb.svg" />
 
-<img width="100%" src="assets/octodex.gif" alt="octodex" />
-
 <div align="center">
   <h2>Hi, I'm Clayon 👋</h2>
   <p>Full-stack engineer focused on Web3, distributed systems, and production-grade DevOps.</p>
@@ -29,6 +27,10 @@
     &nbsp;&nbsp;
     <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20K8S%20%7C%20AWS-0369a1?style=flat-square&logo=docker&logoColor=ffffff&labelColor=6c757d" alt="DevOps: Docker, Kubernetes, AWS" />
   </p>
+</div>
+
+<div align="center">
+  <img src="assets/octodex.gif" alt="octodex" />
 </div>
 
 ## About Me
