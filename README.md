@@ -30,7 +30,7 @@
 </div>
 
 <div align="center">
-  <img src="assets/octodex.gif" alt="octodex" />
+  <img src="assets/daftpunktocat-thomas.gif" alt="thomas" />
 </div>
 
 ## About Me
